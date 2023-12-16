@@ -22,6 +22,7 @@ h1 {
     padding-left: 10px;
 }
 
+/*navigation bar position and spacing*/
 nav {
     display: flex;
     justify-content: end;
@@ -64,19 +65,45 @@ nav ul li a {
     border: solid blue 1px;
 }
 
+/*Main body*/
+.section-header {
+    display: flex;
+    padding: 10px;
+    width: 300px;
+    justify-content: end;
+    text-transform: capitalize;
+}
+
+.about-me {
+    display: flex;
+}
+
+.projects {
+    display: flex;
+}
+
+.project-cards {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    display: flex;
+    height: 200px;
+    width: 40%;
+    min-width: 300px;
+    margin: 10px 10px;
+    border: solid 1px blue;
+}
+
+
+/*contact list*/
 footer {
     display: inline-flex;
     width: 100%;
     align-items: end;
     position: absolute;
     bottom: 5px;
-}
-
-footer h3 {
-    display: flex;
-    padding: 10px;
-    width: 200px;
-    justify-content: end;
 }
 
 .contact-list {
