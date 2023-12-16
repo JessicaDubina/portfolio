@@ -63,3 +63,40 @@ nav ul li a {
     padding: 2px;
     border: solid blue 1px;
 }
+
+footer {
+    display: inline-flex;
+    width: 100%;
+    align-items: end;
+    position: absolute;
+    bottom: 5px;
+}
+
+footer h3 {
+    display: flex;
+    padding: 10px;
+    width: 200px;
+    justify-content: end;
+}
+
+.contact-list {
+    display: flex;
+    font-size: 10px;
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.contact-list-item {
+    display: inline-flex;
+    text-decoration: none;
+    padding: 10px;
+    list-style: none;
+}
+
+footer img {
+    display: inline-flex;
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
