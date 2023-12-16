@@ -1,5 +1,5 @@
 :root {
-    --border: #cbf7f7 solid 1px;
+    --border: #cbf7f7 solid 2px;
     --background-color: rgb(95, 178, 250);
 }
 
@@ -23,7 +23,7 @@ header {
     padding: 5px;
 }
 
-h1 {
+.top h1 {
     font-size: 30px;
     padding-left: 10px;
 }
@@ -77,7 +77,7 @@ nav ul li a {
     padding: 10px;
     width: 300px;
     justify-content: end;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .about-me {
@@ -95,19 +95,23 @@ nav ul li a {
 
 .project-card {
     display: flex;
-    height: 200px;
+    height: 300px;
     width: 40%;
     min-width: 300px;
     margin: 10px 10px;
     border: var(--border);
+    align-items: center;
+    justify-content: center;
 }
 
 #project-1 {
-    display: flex;
     background-image: url(../images/logo.webp);
     background-size: cover;
-    align-items: center;
-    justify-content: center;
+}
+
+#project-2 {
+    background-image: url(../images/startup.png);
+    background-size: cover;
 }
 
 
@@ -119,7 +123,11 @@ a {
 .project-header {
     display: flex;
     font-weight: bold;
-    background-color: blue;
+    font-size: 30px;
+    color: black;
+    text-transform: capitalize;
+    background-color: #e9cdfa;
+    border: var(--border);
 }
 
 
