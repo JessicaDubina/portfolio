@@ -1,6 +1,12 @@
+:root {
+    --border: #cbf7f7 solid 1px;
+    --background-color: rgb(95, 178, 250);
+}
+
 * {
-    background-color: rgb(95, 178, 250);
+    background-color: var(--background-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -62,7 +68,7 @@ nav ul li a {
     top: -30px;
     left: 85%;
     padding: 2px;
-    border: solid blue 1px;
+    border: var(--border);
 }
 
 /*Main body*/
@@ -93,8 +99,31 @@ nav ul li a {
     width: 40%;
     min-width: 300px;
     margin: 10px 10px;
-    border: solid 1px blue;
+    border: var(--border);
 }
+
+#project-1 {
+    display: flex;
+    background-image: url(../images/logo.webp);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: grab;
+}
+
+.project-header {
+    display: flex;
+    font-weight: bold;
+    background-color: blue;
+}
+
+
+
 
 
 /*contact list*/
