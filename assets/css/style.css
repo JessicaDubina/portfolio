@@ -1,6 +1,6 @@
 :root {
     --border: #cbf7f7 solid 2px;
-    --background-color: rgb(95, 178, 250);
+    --background-color: #c1c0fc;
 }
 
 * {
@@ -68,6 +68,7 @@ nav ul li a {
     top: -30px;
     left: 85%;
     padding: 2px;
+    color: #2a17a9;
     border: var(--border);
 }
 
@@ -75,13 +76,28 @@ nav ul li a {
 .section-header {
     display: flex;
     padding: 10px;
-    width: 300px;
+    min-width: 200px;
     justify-content: end;
     text-transform: uppercase;
 }
 
 .about-me {
     display: flex;
+}
+
+.about-me-content {
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.about-me-content p {
+    padding: 0px 20px;
+}
+
+.about-me-content img {
+    height: 150px;
+    width: auto;
 }
 
 .projects {
@@ -126,7 +142,7 @@ a {
     font-size: 30px;
     color: black;
     text-transform: capitalize;
-    background-color: #e9cdfa;
+    background-color: #c1c0fc;
     border: var(--border);
 }
 
@@ -139,7 +155,7 @@ footer {
     display: inline-flex;
     width: 100%;
     align-items: end;
-    position: absolute;
+    position: relative;
     bottom: 5px;
 }
 
