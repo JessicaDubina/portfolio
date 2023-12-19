@@ -121,12 +121,17 @@ nav ul li a {
 }
 
 #project-1 {
-    background-image: url(../images/logo.webp);
+    background-image: url(../images/screen-shot-main-content.png);
     background-size: cover;
 }
 
 #project-2 {
     background-image: url(../images/startup.png);
+    background-size: cover;
+}
+
+#project-3 {
+    background-image: url(../images/coming-soon.jpeg);
     background-size: cover;
 }
 
