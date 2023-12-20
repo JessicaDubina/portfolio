@@ -1,19 +1,20 @@
+/*Webpage automated themes*/
 :root {
     --border: #cbf7f7 solid 2px;
     --background-color: #c1c0fc;
     --page-margin: 200px;
 }
-
+/*general webpage styling: background color, font-family*/
 * {
     background-color: var(--background-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
 }
 
 body {
     font-size: 20px;
 }
 
+/*Main header placement for page*/
 header {
     width: 100%;
 }
@@ -64,6 +65,7 @@ nav ul li a {
     object-fit: cover;
 }
 
+/*Overlay placement for subtitle*/
 .subtitle {
     display: flex;
     position: relative;
@@ -88,6 +90,7 @@ nav ul li a {
     display: flex;
 }
 
+/*Placement for about me content*/
 .about-me-content {
     display: inline-flex;
     align-items: center;
@@ -99,6 +102,7 @@ nav ul li a {
     padding: 0px 20px;
 }
 
+/*Sizing for profile picture*/
 .about-me-content img {
     height: 150px;
     width: auto;
@@ -108,6 +112,7 @@ nav ul li a {
     display: flex;
 }
 
+/*placement of project card container*/
 .project-cards {
     display: inline-flex;
     flex-wrap: wrap;
@@ -115,6 +120,7 @@ nav ul li a {
     justify-content: center;
 }
 
+/*project cards sizing and formats*/
 .project-card {
     display: flex;
     height: 300px;
@@ -126,6 +132,7 @@ nav ul li a {
     justify-content: center;
 }
 
+/*increased size of projects when hovered on*/
 .project-card:hover {
     scale: 110%;
 }
@@ -140,24 +147,26 @@ nav ul li a {
     background-size: cover;
 }
 
+/*project 3 background image covers all future projects*/
 #project-3 {
     background-image: url(../images/coming-soon.jpeg);
     background-size: cover;
 }
 
-
+/*hyperlink formats*/
 a {
     text-decoration: none;
     cursor: grab;
 }
 
+/*project title colors*/
 .project-header {
     display: flex;
     font-weight: bold;
     font-size: 30px;
     color: black;
     text-transform: capitalize;
-    background-color: #c1c0fc;
+    background-color: var(--background-color);
     border: var(--border);
 }
 
@@ -185,6 +194,7 @@ footer {
     list-style: none;
 }
 
+/*signature image sizing*/
 footer img {
     display: inline-flex;
     height: 60px;
@@ -192,6 +202,7 @@ footer img {
     object-fit: contain;
 }
 
+/*sizing for resume pdf*/
 iframe {
     margin-left: 5%;
     width: 90%;
