@@ -1,6 +1,7 @@
 :root {
     --border: #cbf7f7 solid 2px;
     --background-color: #c1c0fc;
+    --page-margin: 200px;
 }
 
 * {
@@ -76,7 +77,7 @@ nav ul li a {
 .section-header {
     display: flex;
     padding: 10px;
-    min-width: 200px;
+    min-width: var(--page-margin);
     justify-content: end;
     text-transform: uppercase;
 }
@@ -89,6 +90,7 @@ nav ul li a {
     display: inline-flex;
     align-items: center;
     margin: 10px;
+    margin-right: var(--page-margin);
 }
 
 .about-me-content p {
@@ -107,17 +109,23 @@ nav ul li a {
 .project-cards {
     display: inline-flex;
     flex-wrap: wrap;
+    margin-right: var(--page-margin);
+    justify-content: center;
 }
 
 .project-card {
     display: flex;
     height: 300px;
     width: 40%;
-    min-width: 300px;
+    min-width: 500px;
     margin: 10px 10px;
     border: var(--border);
     align-items: center;
     justify-content: center;
+}
+
+.project-card:hover {
+    scale: 110%;
 }
 
 #project-1 {
@@ -150,10 +158,6 @@ a {
     background-color: #c1c0fc;
     border: var(--border);
 }
-
-
-
-
 
 /*contact list*/
 footer {
@@ -190,4 +194,26 @@ iframe {
     margin-left: 5%;
     width: 90%;
     height: 800px;
+}
+
+/*tablet screen*/
+@media screen and (width<=768px) {
+    .section-header {
+        min-width: 125px;
+        font-size: 90%;
+    }
+    .project-card {
+        width: 100%;
+    }
+}
+
+/*mobile screen*/
+@media screen and (width<=480px) {
+    .section-header {
+        min-width: 100px;
+        font-size: 80%;
+    }
+    .project-card {
+        width: 100%;
+    }
 }
