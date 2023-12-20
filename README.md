@@ -3,6 +3,8 @@
 ## Description
 Portfolio of my web apps and projects. Includes links to my github, resume, and how to contact.
 
+https://jessicadubina.github.io/portfolio/
+
 ## Installation
 N/A
 
