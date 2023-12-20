@@ -50,6 +50,7 @@ nav ul li a {
     text-decoration: none;
 }
 
+/*banner image and formatting*/
 .banner {
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +68,8 @@ nav ul li a {
     display: flex;
     position: relative;
     top: -30px;
-    left: 85%;
+    left: 80%;
+    margin-right: 20px;
     padding: 2px;
     color: #2a17a9;
     border: var(--border);
@@ -198,6 +200,15 @@ iframe {
 
 /*tablet screen*/
 @media screen and (width<=768px) {
+    .about-me-content {
+        display: block;
+        font-size: 80%;
+        margin-right: 10%;
+    }
+    .about-me-content img {
+        display: block;
+        margin-left: 100px;
+    }
     .section-header {
         min-width: 125px;
         font-size: 90%;
@@ -212,8 +223,5 @@ iframe {
     .section-header {
         min-width: 100px;
         font-size: 80%;
-    }
-    .project-card {
-        width: 100%;
     }
 }

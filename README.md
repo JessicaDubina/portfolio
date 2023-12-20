@@ -9,7 +9,7 @@ N/A
 ## Usage
 ![Screenshot of webpage](/assets/images/screen-shot.png)
 
-# Credits
+## Credits
 N/A
 
 ## License
