@@ -2,6 +2,7 @@
 :root {
     --border: #cbf7f7 solid 2px;
     --background-color: #c1c0fc;
+    --background-t: transparent;
     --page-margin: 200px;
 }
 /*general webpage styling: background color, font-family*/
@@ -9,9 +10,9 @@
     background-color: var(--background-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 body {
     font-size: 20px;
+    background: transparent;
 }
 
 /*Main header placement for page*/
@@ -147,8 +148,13 @@ nav ul li a {
     background-size: cover;
 }
 
-/*project 3 background image covers all future projects*/
 #project-3 {
+    background-image: url(../images/chuckye-site.png);
+    background-size: cover;
+}
+
+/*project 4 background image covers all future projects*/
+#project-4 {
     background-image: url(../images/coming-soon.jpeg);
     background-size: cover;
 }
@@ -166,7 +172,8 @@ a {
     font-size: 30px;
     color: black;
     text-transform: capitalize;
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
+    background: var(--background-t);
     border: var(--border);
 }
 
